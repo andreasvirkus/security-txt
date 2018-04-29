@@ -1,0 +1,41 @@
+{
+  "name": "security-txt",
+  "description": "Validate your security.txt implementation",
+  "version": "0.1.0",
+  "author": "andreas virkus <write@andreasvirkus.me> (https://andreasvirkus.me)",
+  "bin": {
+    "security-txt": "./bin/run"
+  },
+  "bugs": "https://github.com/andreasvirkus/security-txt/issues",
+  "dependencies": {
+    "@oclif/command": "^1.4.16",
+    "@oclif/config": "^1.6.13",
+    "@oclif/plugin-help": "^1.2.5",
+    "url-exists": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-oclif": "^1.4.0",
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/andreasvirkus/security-txt",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "security-txt"
+  },
+  "repository": "andreasvirkus/security-txt",
+  "scripts": {
+    "posttest": "eslint .",
+    "test": "echo NO TESTS"
+  }
+}
