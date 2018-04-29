@@ -16,6 +16,7 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-oclif": "^1.4.0",
+    "jest": "^22.4.3"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -36,6 +37,6 @@
   "repository": "andreasvirkus/security-txt",
   "scripts": {
     "posttest": "eslint .",
-    "test": "echo NO TESTS"
+    "test": "jest --passWithNoTests"
   }
 }
